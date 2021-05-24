@@ -57,7 +57,7 @@ bot.add_extention('.Greet')
 ### Vars
 
 whenever there is `?*` in match string bot engine will break user voice and adds whatever comes in place of ?_ to a list of strings. This list is passed as first(after self) argument to class function so that you can get argument of author.
-\*\*`Note: ` If nothing matches with `?_`, it acts as empty string\*\*
+**`Note: ` If nothing matches with `?_`, it acts as empty string**
 
 ### Background Tasks
 
