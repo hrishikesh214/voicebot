@@ -15,7 +15,7 @@ import voicebot as vb
 bot = vb.Bot(name="jarvis", gender="male",
              match="jarvis|jar|jalvis", min_energy=2000, show_beat=True, show_task=True)
 
-bot.run
+bot.run()
 ```
 
 ### Adding Bot Extentions
