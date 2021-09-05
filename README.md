@@ -38,7 +38,7 @@ class Greetings:
     async def greet(self, vars):
         self.bot.say('greetings!')
 
-     @voicebot.match('quit || shutdown || sleep || shut down')
+    @voicebot.match('quit || shutdown || sleep || shut down')
     async def end(self, vars):
         self.bot.say(f'Good Bye')
         self.bot.stop()
